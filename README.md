@@ -73,5 +73,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://josealejandro2928.github.io/portfolio/)
-- GitHub [@your-username](https://github.com/josealejandro2928)
+- Website [website](https://josealejandro2928.github.io/portfolio/)
+- GitHub [github](https://github.com/josealejandro2928)
