@@ -1,0 +1,70 @@
+.App {
+  .header {
+    height: 64px;
+    width: 100%;
+    padding: 0px 64px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .btn-refresh {
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      border: none;
+      outline: none;
+      padding: 6px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      &:hover {
+        transition: all 0.5s ease;
+        background-color: #333333;
+        color: #fff;
+      }
+      &:active {
+        transform: scale(0.92);
+      }
+    }
+  }
+  .randomQuote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .author {
+    padding: 16px 32px;
+    position: relative;
+    // width: 540px;
+    transition: all 0.5s ease;
+    h2 {
+      color: #4f4f4f;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .arrow{
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:hover {
+      transition: all 0.5s ease;
+      background-color: #333333;
+      color: #fff;
+      h2 {
+        color: #fff;
+      }
+      cursor: pointer;
+    }
+  }
+  .quote-loading {
+    height: 120px;
+    max-width: 600px;
+    width: 100%;
+    margin: 32px 0px;
+    background-color: #eee;
+  }
+}

@@ -1,0 +1,40 @@
+.Quote {
+  width: 540px;
+  padding: 16px 32px 48px 32px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 24px 0px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -10%;
+    width: 5px;
+    height: 80%;
+    background-color: #f7df94;
+  }
+  .body {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 300px;
+    padding: 16px;
+    .body {
+      font-weight: 500;
+      font-size: 18px;
+    //   line-height: 120%;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: -5%;
+      width: 5px;
+      height: 80%;
+      background-color: #f7df94;
+    }
+  }
+}
